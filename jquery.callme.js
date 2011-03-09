@@ -1,8 +1,8 @@
 (function( $ ){
 	
-	$.fn.phone = function( options ) {
+	$.fn.callme = function( options ) {
 	
-		var thisPhone = this, dispatcher = $({}), phonoOptions = {}, phono, call; 
+		var thisPhone = this, dispatcher = $({}), callMeOptions = {}, phono, call; 
 		var settings = {
 			apikey : "",
 			dialpad: true,
@@ -16,14 +16,14 @@
     	if(options) {
 	    	//lowercase all options passed in
 	    	$.each(options, function(k,v){
-	    		phonoOptions[k.toLowerCase()] = v;
+	    		callMeOptions[k.toLowerCase()] = v;
 	    	});
     	}
     	    	
     	return this.each(function(){
     		
     		if ( options ) { 
-        		$.extend( settings, phonoOptions );
+        		$.extend( settings, callMeOptions );
       		}
       		
       		var phone = buildPhone( settings );
