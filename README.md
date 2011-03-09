@@ -14,7 +14,7 @@ The callme plugin uses the [jQuery UI theme classes](http://jqueryui.com/themero
 	    	.callme({
 	    		apiKey: "C17D167F-09C6-4E4C-A3DD-2025D48BA243",
 	    		numberToDial: "8007773456",
-	    		buttonTextReady: "1-800-FILM (Moviefone)",
+	    		buttonTextReady: "1-800-777-FILM",
 	    		slideOpen:true
 	    	})
 	)
