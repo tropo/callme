@@ -201,6 +201,7 @@
     			
     		call = phono.phone.dial(settings.numbertodial, {
             	tones: true,
+                callerId: settings.callerid,
             	onAnswer: function(event) {	
 				    phoneBtn.text("Hangup");
             	},
