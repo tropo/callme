@@ -30,7 +30,7 @@ The callme plugin uses the [jQuery UI theme classes](http://jqueryui.com/themero
  Set this to the phone number, [Tropo](http://www.tropo.com) appid, or sip number you want to call
 
 ### Demo: 
-[http://s.phono.com/releases/0.2/samples/callme/index.htm](http://s.phono.com/releases/0.2/samples/callme/index.htm).
+[http://s.phono.com/releases/1.0/samples/callme/index.htm](http://s.phono.com/releases/1.0/samples/callme/index.htm).
 
 ### Contact:
 [Twitter](http://www.twitter.com/phonosdk) | [http://www.phono.com](http://www.phono.com)
